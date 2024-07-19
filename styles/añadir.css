@@ -1,0 +1,208 @@
+@font-face {
+    font-family: 'inter';
+    src: url(../src/fonts/static/Inter-Regular.ttf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family: "Inter", sans-serif;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    font-family: 'inter';
+}
+
+.contenedor {
+    display: flex;
+    justify-content: space-around; /* Para alinear los extremos */
+    align-items: center;
+    width: 100%;
+    margin-top: 1.2vh;
+    color: black;
+    border-bottom: 1px solid black;
+}
+
+.contenedor a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.menu img {
+    width: 1.5vw;
+    margin-right: 10px;
+}
+
+.kario img {
+    width: 3.5vw;
+}
+
+.menu-1 .icon {
+    align-items: center;
+    width: 1vw;
+    padding: 10px;
+}
+
+.foto {
+    width: 3vw;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 0.5s;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 1000;
+}
+
+.overlay:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+.contenedor-cerrar-sesion {
+    margin: 70px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 25px;
+    width: 30%;
+    position: relative;
+    transition: all 0.5s ease-in-out;
+}
+
+.contenedor-cerrar-sesion h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+.contenedor-cerrar-sesion .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 0.2s;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+}
+
+.contenedor-cerrar-sesion .close:hover {
+    color: #000;
+}
+
+.contenedor-cerrar-sesion .content {
+    max-height: 30%;
+    overflow: auto;
+}
+
+.btn-logout {
+    display: block;
+    margin: 20px 0;
+    padding: 10px 20px;
+    background: #FF1B1B;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.btn-logout:hover {
+    background: #d32f2f;
+}
+.section1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0;
+    h3 {
+        text-align: center;
+        margin-bottom: 1.5vh;
+        font-size: 1.40rem;
+        font-weight: 600;
+    }
+
+    p{
+        text-align: center;
+        margin-bottom: 0;
+        font-size: 1.10rem;
+
+    }
+}
+
+.section2{
+    display: flex;
+    margin-top: 0vh;
+    width: 100vw;
+}
+.ima-kario img{
+    width: 14vw;
+    height: 20vh;
+    margin-left: 7vw;
+    margin-top: 20vh;
+    transform: rotate(90deg);
+    opacity: 38%;
+    z-index: -1;
+}
+.texto-1 p{
+    margin-left: 4vw;
+    font-size: 2rem;
+}
+.boton{
+    margin-top: 1.5vh;
+}
+.boton label select{
+    margin-top: 3.9vh ;
+    margin-left: 1.5vw;
+    width: 16vw;
+    height: 8vh;
+    border-radius: 16px;
+    border: none;
+    background-color: chocolate;
+    opacity: 38%;
+
+}
+.texto-2 p{
+    font-size: 2.2rem;
+    margin-left: 5.5vw;
+}
+.boton-1 label select{
+    margin-top: 5.8vh ;
+    margin-left: 1.5vw;
+    width: 16vw;
+    height: 8vh;
+    border-radius: 16px;
+    border: none;
+    background-color: chocolate;
+    opacity: 38%;
+}
+.añadir {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0vh;
+}
+.añadir button{
+    border-radius: 22px;
+    border: 1px solid rgb(241, 119, 31);
+    background-color: rgb(243, 117, 26);
+    margin-top: 0vh;
+    width: 14vw;
+    height: 7.5vh;
+    color: white;
+    font-size: 1.4rem;
+    cursor: pointer;
+}

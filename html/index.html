@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../styles/index.css">
+  <title>Panel De Control</title>
+  <link rel="shortcut icon" href="../src/images/kario copy.png" type="image/x-icon">
+</head>
+
+<body>
+  <div class="contenedor">
+    <div class="menu"><img src="../src/images/Group 3@2x.png" alt=""><a href="añadir.html">Añadir</a></div>
+    <div class="menu"><img src="../src/images/Icon open-reload@2x.png" alt=""><a href="index.html">Refrescar</a></div>
+    <div class="menu"><img src="../src/images/Icon material-delete-forever@2x.png" alt=""><a href="eliminar.html">Eliminar</a></div>
+    <div class="kario"><img src="../src/images/kario copy.png" alt=""></div>
+    <div class="menu"><img src="../src/images/Icon material-bug-report@2x.png" alt=""><a href="reporte.html">Reportar</a></div>
+    <div class="menu"><img src="../src/images/Icon ionic-ios-help-circle@2x.png" alt=""><a href="ayuda.html">Ayuda</a></div>
+    <div class="menu-1">
+        <img src="../src/images/Icon ionic-ios-settings@2x.png" alt="" class="icon">
+        <img src="../src/images/Icon material-notifications-active@2x.png" alt="" class="icon">
+        <a href="#cerrar-sesion" class="foto-link"><img src="../src/images/pp@2x.png" alt="" class="foto"></a>
+    </div>
+</div>
+
+<div id="cerrar-sesion" class="overlay">
+    <div class="contenedor-cerrar-sesion">
+        <h2>Pedro Felipe</h2>
+        <a class="close" href="#">&times;</a>
+        <div class="content">
+            Usuario Administrador
+            <a href="#" class="btn-logout">Perfil</a>
+            <a href="login.html" class="btn-logout">Cerrar Sesión</a>
+        </div>
+    </div>
+</div>
+  <main>
+    <h1>Panel de Indicadores</h1>
+    <p>Aquí puedes visualizar los indicadores propuestos y añadidos por tu equipo de trabajo.</p>
+  </main>
+  <section class="section1">
+    <div class="subtitulos">
+      <div class="contenido-de-filas">Indicador</div>
+      <div class="contenido-de-filas">Descripción</div>
+      <div class="contenido-de-filas">Categoría</div>
+      <div class="contenido-de-filas">Fecha de Inicio</div>
+      <div class="contenido-de-filas">Fecha de Terminación</div>
+      <div class="contenido-de-filas">Fórmula</div>
+      <div class="contenido-de-filas">Frecuencia</div>
+      <div class="contenido-de-filas">Cumplimiento</div>
+      <div class="contenido-de-filas">Área</div>
+    </div>
+    <div class="table">
+      <div class="row">
+        <div class="contenido-de-filas">Modelado 3D</div>
+        <div class="contenido-de-filas">Interés por diseño...</div>
+        <div class="contenido-de-filas">Baja</div>
+        <div class="contenido-de-filas">12/05/21</div>
+        <div class="contenido-de-filas">12/12/21</div>
+        <div class="contenido-de-filas">Met.Agil</div>
+        <div class="contenido-de-filas">1/4</div>
+        <div class="contenido-de-filas-circle-number">
+          <svg width="50" height="50" viewBox="0 0 36 36">
+            <path stroke="red" stroke-width="4" fill="none" stroke-dasharray="96, 100"
+              d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
+            <text x="18" y="20.35" fill="#555" font-size="8" text-anchor="middle">31%</text>
+          </svg>
+        </div>
+        <div class="contenido-de-filas">Marketing</div>
+      </div>
+      <div class="estado"><img src="../src/images/Repeat Grid 3@2x.png" alt="Estado"></div>
+      <div class="row">
+        <div class="contenido-de-filas">Finca Galeón</div>
+        <div class="contenido-de-filas">Diseño de maqueta...</div>
+        <div class="contenido-de-filas">Baja</div>
+        <div class="contenido-de-filas">12/04/21</div>
+        <div class="contenido-de-filas">12/05/21</div>
+        <div class="contenido-de-filas">Met.Agil</div>
+        <div class="contenido-de-filas">1/4</div>
+        <div class="contenido-de-filas-circle-number"><svg width="50" height="50" viewBox="0 0 36 36">
+            <path stroke="red" stroke-width="4" fill="none" stroke-dasharray="96, 100" d="M18 2.0845
+                     a 15.9155 15.9155 0 0 1 0 31.831
+                     a 15.9155 15.9155 0 0 1 0 -31.831" />
+            <text x="18" y="20.35" fill="#555" font-size="8" text-anchor="middle">
+              25%
+            </text>
+          </svg></div>
+        <div class="contenido-de-filas">Diseño</div>
+      </div>
+      <div class="estado"><img src="../src/images/Repeat Grid 3@2x.png" alt="Estado"></div>
+      <div class="row">
+        <div class="contenido-de-filas">Colegios Privados</div>
+        <div class="contenido-de-filas">Se busca llegar a los...</div>
+        <div class="contenido-de-filas">Media</div>
+        <div class="contenido-de-filas">24/04/21</div>
+        <div class="contenido-de-filas">12/11/21</div>
+        <div class="contenido-de-filas">Met.Fibo</div>
+        <div class="contenido-de-filas">1/4</div>
+        <div class="contenido-de-filas-circle-number"><svg width="50" height="50" viewBox="0 0 36 36">
+            <path stroke="green" stroke-width="4" fill="none" stroke-dasharray="96, 100" d="M18 2.0845
+                     a 15.9155 15.9155 0 0 1 0 31.831
+                     a 15.9155 15.9155 0 0 1 0 -31.831" />
+            <text x="18" y="20.35" fill="#555" font-size="8" text-anchor="middle">
+              80%
+            </text>
+          </svg></div>
+        <div class="contenido-de-filas">Developers</div>
+      </div>
+      <div class="estado"><img src="../src/images/Repeat Grid 3@2x.png" alt="Estado"></div>
+      <div class="row">
+        <div class="contenido-de-filas">Electro-domésticos</div>
+        <div class="contenido-de-filas">Ventas de electro...</div>
+        <div class="contenido-de-filas">Media</div>
+        <div class="contenido-de-filas">12/04/21</div>
+        <div class="contenido-de-filas">12/09/21</div>
+        <div class="contenido-de-filas">Met.Agil</div>
+        <div class="contenido-de-filas">1/3</div>
+        <div class="contenido-de-filas-circle-number"><svg width="50" height="50" viewBox="0 0 36 36">
+            <path stroke="red" stroke-width="4" fill="none" stroke-dasharray="96, 100" d="M18 2.0845
+                     a 15.9155 15.9155 0 0 1 0 31.831
+                     a 15.9155 15.9155 0 0 1 0 -31.831" />
+            <text x="18" y="20.35" fill="#555" font-size="8" text-anchor="middle">
+              32%
+            </text>
+          </svg></div>
+        <div class="contenido-de-filas">Gerencia</div>
+      </div>
+      <div class="estado"><img src="../src/images/Repeat Grid 3@2x.png" alt="Estado"></div>
+      <div class="row">
+        <div class="contenido-de-filas">Estrado 2-Floridablanca</div>
+        <div class="contenido-de-filas">Impacto en los sec...</div>
+        <div class="contenido-de-filas">Alta</div>
+        <div class="contenido-de-filas">12/04/21</div>
+        <div class="contenido-de-filas">12/09/21</div>
+        <div class="contenido-de-filas">Met.Expo</div>
+        <div class="contenido-de-filas">1/4</div>
+        <div class="contenido-de-filas-circle-number"><svg width="50" height="50" viewBox="0 0 36 36">
+            <path stroke="green" stroke-width="4" fill="none" stroke-dasharray="96, 100" d="M18 2.0845
+                     a 15.9155 15.9155 0 0 1 0 31.831
+                     a 15.9155 15.9155 0 0 1 0 -31.831" />
+            <text x="18" y="20.35" fill="#555" font-size="8" text-anchor="middle">
+              95%
+            </text>
+          </svg></div>
+        <div class="contenido-de-filas">Marketing</div>
+      </div>
+      <div class="estado"><img src="../src/images/Repeat Grid 3@2x.png" alt="Estado"></div>
+      <div class="row">
+        <div class="contenido-de-filas">Jóvenes en Acción</div>
+        <div class="contenido-de-filas">Impacto en los sec...</div>
+        <div class="contenido-de-filas">Alta</div>
+        <div class="contenido-de-filas">15/02/21</div>
+        <div class="contenido-de-filas">09/11/21</div>
+        <div class="contenido-de-filas">Met.Expo</div>
+        <div class="contenido-de-filas">1/2</div>
+        <div class="contenido-de-filas-circle-number"><svg width="50" height="50" viewBox="0 0 36 36">
+            <path stroke="orange" stroke-width="4" fill="none" stroke-dasharray="96, 100" d="M18 2.0845
+                     a 15.9155 15.9155 0 0 1 0 31.831
+                     a 15.9155 15.9155 0 0 1 0 -31.831" />
+            <text x="18" y="20.35" fill="#555" font-size="8" text-anchor="middle">
+              75%
+            </text>
+          </svg></div>
+        <div class="contenido-de-filas">Producción</div>
+      </div>
+      <div class="estado"><img src="../src/images/Repeat Grid 3@2x.png" alt="Estado"></div>
+    </div>
+    <button class="add-button" onclick="location.href='añadir.html'">Añadir Elementos</button>
+  </section>
+
+</body>
+
+</html>
+
+</body>
+
+</html>

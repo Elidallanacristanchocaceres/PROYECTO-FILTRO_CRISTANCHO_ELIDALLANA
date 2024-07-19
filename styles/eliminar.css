@@ -1,0 +1,280 @@
+@font-face {
+    font-family: 'inter';
+    src: url(../src/fonts/static/Inter-Regular.ttf);
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family: "Inter", sans-serif;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    font-family: 'inter';
+}
+
+.contenedor {
+    display: flex;
+    justify-content: space-around; /* Para alinear los extremos */
+    align-items: center;
+    width: 100%;
+    margin-top: 1.2vh;
+    color: black;
+    border-bottom: 1px solid black;
+}
+
+.contenedor a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.menu img {
+    width: 1.5vw;
+    margin-right: 10px;
+}
+
+.kario img {
+    width: 3.5vw;
+}
+
+.menu-1 .icon {
+    align-items: center;
+    width: 1vw;
+    padding: 10px;
+}
+
+.foto {
+    width: 3vw;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 0.5s;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 1000;
+}
+
+.overlay:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+.contenedor-cerrar-sesion {
+    margin: 70px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 25px;
+    width: 30%;
+    position: relative;
+    transition: all 0.5s ease-in-out;
+}
+
+.contenedor-cerrar-sesion h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+.contenedor-cerrar-sesion .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 0.2s;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+}
+
+.contenedor-cerrar-sesion .close:hover {
+    color: #000;
+}
+
+.contenedor-cerrar-sesion .content {
+    max-height: 30%;
+    overflow: auto;
+}
+
+.btn-logout {
+    display: block;
+    margin: 20px 0;
+    padding: 10px 20px;
+    background: #FF1B1B;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.btn-logout:hover {
+    background: #d32f2f;
+}
+
+.contenedor-contenido p{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    color: rgb(243, 117, 26);
+    margin: 0;
+}
+
+.texto p{
+    color: black;
+}
+
+.section1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    margin: 0 auto;
+    width: 70vw; 
+    margin-top: 2vh;
+}
+.circle-number img{
+    width: 50px;
+    height: 50px;
+}
+.table {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 100% 5%;
+    column-gap: 25px;
+    align-items: center;
+}
+
+.row-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 5px;
+    margin-top: 10px;
+    border-radius: 15px;
+    font-size: 1.2rem;
+    font-weight: 800;
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5px;
+    margin: 10px 0;
+    border: 1px solid #707070;
+    border-radius: 15px;
+    font-size: 1.2rem;
+}
+
+
+
+.contenido-fila {
+    flex: 1;
+    text-align: center;
+}
+
+.delete a{
+    display: flex;
+    align-items: center;
+    width: 6vw;
+    height: 6vh;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff7221;
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+.delete a img {
+    width: 18px;
+    height: 20px;
+    margin-right: 4px;
+    filter: brightness(100);
+}
+
+.cuadro-eliminar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 0.5s;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 1000;
+}
+
+.cuadro-eliminar:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+.contenedor-eliminar {
+    margin: 70px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 25px;
+    width: 30%;
+    position: relative;
+    transition: all 0.5s ease-in-out;
+    box-shadow: 10px 10px 20px black;
+
+}
+
+.contenedor-eliminar h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+.contenedor-eliminar .cerrar-cuadro {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 0.2s;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+}
+
+.contenedor-eliminar.cerrar-eliminar:hover {
+    color: #000;
+}
+
+.contenedor-eliminar .content-eliminar {
+    width: 100%;
+    overflow: auto;
+    display: flex;
+}
+
+.btn-no {
+    display: block;
+    width: 100%;
+    margin: 20px 10px;
+    padding: 10px 20px;
+    background: #FF721B;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.btn-no:hover {
+    background: #994612;
+}
