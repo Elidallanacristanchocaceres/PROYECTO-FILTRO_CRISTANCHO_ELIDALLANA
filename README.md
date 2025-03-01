@@ -28,6 +28,11 @@ Para obtener el proyecto, clona el repositorio desde el siguiente enlace de GitH
 
 git clone https://github.com/Elidallanacristanchocaceres/PROYECTO-FILTRO_CRISTANCHO_ELIDALLANA
 ```
-# 📱Contacto
-   Para cualquier pregunta o comentario sobre el proyecto, por favor contacta con [Elidallana Cristancho] a través de [cristanchodayana062017@gmail.com].
+____
+### 📬 Contacto
+- 📧 Correo electrónico: cristanchodayana062017@gmail.com
+
+- 💼 LinkedIn: [Elidallana Cristancho Caceres](https://www.linkedin.com/in/elidallanacristancho/)
+
+¡Gracias por ser parte de esta aventura! 🚀✨
 
